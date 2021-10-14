@@ -1,7 +1,12 @@
 /**/
 
-body{
+body {
   background: skyblue;
+}
+
+button {
+  color: blue;
+
 }
 
     #minuteStr {

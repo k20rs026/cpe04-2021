@@ -184,6 +184,7 @@
     function btnAClick(e){
         active = true;
         startTime = new Date();
+        $("#btnA").prop("disabled", true);
     }
 
     // ButtonBがクリックされた時の処理
@@ -217,6 +218,27 @@
           active = false;
           alarm();
         }
+
+        if( rest == 5) {
+          alarm();
+        }
+
+        if( rest == 4){
+          alarm();
+        }
+
+        if( rest == 3){
+          alarm();
+        }
+
+        if( rest == 2){
+          alarm();
+        }
+
+        if( rest == 1){
+          alarm();
+        }
+
 
       }
         
